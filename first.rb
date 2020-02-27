@@ -9,6 +9,6 @@ module Enumerable
     end
   end
 end
-x = [5, 8, -3, 5, 5, 10]
+x = [5, 8, -3, 5, 5, 5]
 
 x.try { |num| puts num * 2 }
